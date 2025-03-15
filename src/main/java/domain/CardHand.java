@@ -65,4 +65,8 @@ public class CardHand {
     public int hashCode() {
         return Objects.hashCode(cards);
     }
+
+    public int size() {
+        return cards.size();
+    }
 }

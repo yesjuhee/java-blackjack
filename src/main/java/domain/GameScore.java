@@ -1,7 +1,7 @@
 package domain;
 
 public record GameScore(int value) {
-    private static final GameScore BLACKJACK_SCORE = new GameScore(21);
+    public static final GameScore BLACKJACK_SCORE = new GameScore(21);
     private static final GameScore ADDITIONAL_ACE_SCORE = new GameScore(10);
     private static final GameScore DEALER_STAY_THRESHOLD = new GameScore(17);
 
